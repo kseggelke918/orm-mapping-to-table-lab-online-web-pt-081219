@@ -21,8 +21,8 @@ def self.create_table
   
   def self.drop_table
     sql =  <<-SQL
-      DROP TABLE students;
-      SQL 
+      DROP TABLE students
+        SQL
   end 
   
 end
