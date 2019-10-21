@@ -19,4 +19,8 @@ class Student
     DB[:conn].execute(sql)
   end 
   
+  def drop 
+  
+  end 
+  
 end
